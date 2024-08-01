@@ -1,20 +1,53 @@
-.signup-container {
+.login-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1517849845537-4d257902454a');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
+  
 }
 
-.signup-box {
-  padding: 2rem;
+.login-box {
+  padding: 3rem;
+  width: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: 30%;
 }
 
-.signup-form {
+@media (max-width: 768px) {
+  .login-box {
+    width: 450px;
+    margin-top: 30%;
+  }
+}
+
+/* Styles for small screens (phones) */
+@media (max-width: 480px) {
+  .login-box {
+    width: 300px;
+    margin-top: 20%;
+  }
+}
+
+.login-form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.signup-option {
+  margin-top: 1rem;
 }

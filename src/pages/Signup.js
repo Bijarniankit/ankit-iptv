@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { TextField, Button, Container, Typography, Box, Link } from '@mui/material';
 import axios from 'axios';
-import '../css/Login.css';
+import '../css/signup.css';
 
 const Signup = () => {
   const [username, setUsername] = useState('');
