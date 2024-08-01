@@ -12,7 +12,7 @@ const Signup = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('https://ankit-iptv.vercel.app/api/auth/signup', {
+      const response = await axios.post('https://ankit-iptv-backend.vercel.app/api/auth/signup', {
         username,
         email,
         password

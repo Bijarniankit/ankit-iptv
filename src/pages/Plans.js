@@ -15,7 +15,7 @@ const Plans = () => {
           <ul>
             <li  id="lol"><strong>HD</strong> Video Quality</li>
             <li  id="lol"><strong> Basic + National </strong>Channels Available</li>
-            <li  id="lol"><strong>Two </strong>Screens at he Same Time</li>
+            <li  id="lol"><strong>Two </strong>Screens at the Same Time</li>
           </ul>
           </a>
         </div>

@@ -21,7 +21,7 @@ export default function Settings() {
 		  return;
 		}
 
-		const response = await axios.get('https://ankit-iptv.vercel.app/api/user/profile', {
+		const response = await axios.get('https://ankit-iptv-backend.vercel.app/api/user/profile', {
 		  headers: {
 			'Authorization': `Bearer ${token}`,
 		  },
@@ -30,7 +30,7 @@ export default function Settings() {
 		const data = await response.data;
 		setUsername(data.username);
 		setEmail(data.email);
-		setPassword(data.password); // Assuming the API returns the password, which is not a common practice
+		
 	  } catch (err) {
 		setError('Failed to fetch profile data');
 	  }
@@ -50,7 +50,7 @@ export default function Settings() {
 		return;
 	  }
 
-	  const response = await axios.put('https://ankit-iptv.vercel.app/api/user/update', {
+	  const response = await axios.put('https://ankit-iptv-backend.vercel.app/api/user/update', {
 		username,
 		email,
 		password,
