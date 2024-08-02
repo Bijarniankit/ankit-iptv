@@ -88,7 +88,7 @@ const CheckoutForm = () => {
           <div className="form-group">
             <div>
               <button type="button" className="btn btn-success" id="pay-now">
-                Pay Now
+                <a href="/paymentstatus">Pay Now</a>
               </button>
             </div>
           </div>

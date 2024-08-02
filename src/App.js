@@ -17,6 +17,7 @@ import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import ContactUs from "./pages/ContactUs"
 import Plans from "./pages/Plans"
+import PaymentStatus from "./pages/PaymentStatus"
 import Checkout from "./pages/CheckoutForm"
 import Playlists from "./Playlists";
 import Play from "./Play";
@@ -154,6 +155,7 @@ function App() {
             <Route path="/playlists" element={<PrivateRoute><Playlists /></PrivateRoute>} />
             <Route path="/checkout" element={<PrivateRoute><Checkout /></PrivateRoute>} />
             <Route path="/contactus" element={<PrivateRoute><ContactUs /></PrivateRoute>} />
+            <Route path="//paymentstatus" element={<PrivateRoute><PaymentStatus /></PrivateRoute>} />
             <Route path="/play/:channelName" element={<PrivateRoute><Play /></PrivateRoute>} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
