@@ -53,6 +53,13 @@
   }
 }
 
+/* Login.css */
+.email-input input::placeholder,
+.password-input input::placeholder {
+  color: #888;
+  opacity: 1; 
+}
+
 .login-form {
   display: flex;
   flex-direction: column;

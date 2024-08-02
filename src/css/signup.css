@@ -18,6 +18,13 @@
   
 }
 
+.username-input input::placeholder,
+.email-input input::placeholder,
+.password-input input::placeholder {
+  color: #888;
+  opacity: 1;
+}
+
 .login-box {
   padding: 3rem;
   width: 500px;
