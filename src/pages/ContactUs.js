@@ -46,7 +46,7 @@ const ContactForm = () => {
             <div className="information">
               <i className="fas fa-map-marker-alt"></i>
               <p><a href="https://www.google.com/maps/place/SBCET,Benad+Road,Jhotwara,Jaipur+302013" target="_blank" rel="noopener noreferrer">
-              SBCET, Benad Road, Jhotwara, Jaipur 302013</a></p>
+              SBCET, Benad Road, Jaipur 302013</a></p>
             </div>
             <div className="information">
               <i className="fas fa-envelope"></i>
@@ -61,16 +61,16 @@ const ContactForm = () => {
             <p>Connect with us :</p>
             <div className="social-icons">
               <a href="/error">
-                <i className="fab fa-facebook-f">F</i>
+                <i className="fab fa-facebook-f"></i>
               </a>
               <a href="/error">
-                <i className="fab fa-twitter">X</i>
+                <i className="fab fa-twitter"></i>
               </a>
               <a href="/error">
-                <i className="fab fa-instagram">I</i>
+                <i className="fab fa-instagram"></i>
               </a>
               <a href="/error">
-                <i className="fab fa-linkedin-in">L</i>
+                <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
           </div>

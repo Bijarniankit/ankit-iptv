@@ -54,11 +54,25 @@
 }
 
 /* Login.css */
-.email-input input::placeholder,
+/* .email-input input::placeholder,
 .password-input input::placeholder {
   color: #888;
   opacity: 1; 
+} */
+
+/* Updated CSS for input box and placeholder color */
+.email-input input::placeholder,
+.password-input input::placeholder {
+  color: black;
+  opacity: 1; 
 }
+
+.email-input input,
+.password-input input {
+  background-color: rgba(0, 0, 0, 0.1); 
+  color: black; 
+}
+
 
 .login-form {
   display: flex;
