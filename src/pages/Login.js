@@ -30,7 +30,7 @@ const Login = () => {
 			<Container maxWidth="sm" className="login-container">
 				<Box className="login-box">
 					<Typography variant="h4" component="h1" gutterBottom>
-						Login
+						Sign in
 					</Typography>
 					<form className="login-form" onSubmit={handleSubmit}>
 						<TextField
@@ -58,7 +58,7 @@ const Login = () => {
 							</Typography>
 						)}
 						<Button variant="contained" color="primary" type="submit" fullWidth>
-							Login
+							Sign in
 						</Button>
 					</form>
 					<Typography variant="body2" color="textSecondary" align="center" className="signup-option">
