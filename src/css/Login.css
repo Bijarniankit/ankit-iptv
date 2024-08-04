@@ -34,7 +34,7 @@
   width: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(238, 243, 173);
   margin-top: 30%;
 }
 
@@ -81,5 +81,5 @@
 }
 
 .signup-option {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }

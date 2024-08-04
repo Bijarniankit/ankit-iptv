@@ -18,11 +18,25 @@
   
 }
 
-.username-input input::placeholder,
+/* .username-input input::placeholder,
 .email-input input::placeholder,
 .password-input input::placeholder {
   color: #888;
   opacity: 1;
+} */
+
+.username-input input::placeholder,
+.email-input input::placeholder,
+.password-input input::placeholder {
+  color: black;
+  opacity: 1; 
+}
+
+.username-input input,
+.email-input input,
+.password-input input {
+  background-color: rgba(0, 0, 0, 0.1); 
+  color: black; 
 }
 
 .login-box {
@@ -30,7 +44,7 @@
   width: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(240, 238, 210, 0.9);
   margin-top: 30%;
 }
 
