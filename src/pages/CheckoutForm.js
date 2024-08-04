@@ -9,7 +9,7 @@ const CheckoutForm = () => {
       <form className="form-horizontal">
         <div>
           <legend>
-            <h1 className="form-top">Payment</h1>
+            <h1 className="form-top">Secure Checkout</h1>
           </legend>
           <div className="form-group">
             <label className="control-label" htmlFor="card-holder-name">Name</label>
