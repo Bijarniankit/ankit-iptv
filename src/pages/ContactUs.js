@@ -40,21 +40,21 @@ const ContactForm = () => {
         <div className="contact-info">
           <h3 className="title">Let's get in touch</h3>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
+            To Provide Feedback or report an issue, please fill out the form or contact via email or phone.
           </p>
           <div className="info">
             <div className="information">
               <i className="fas fa-map-marker-alt"></i>
-              <p>92 Cherry Drive Uniondale, NY 11553</p>
+              <p><a href="https://www.google.com/maps/place/SBCET,Benad+Road,Jhotwara,Jaipur+302013" target="_blank" rel="noopener noreferrer">
+              SBCET, Benad Road, Jhotwara, Jaipur 302013</a></p>
             </div>
             <div className="information">
               <i className="fas fa-envelope"></i>
-              <p>lorem@ipsum.com</p>
+              <p><a href="mailto:support@ankitiptv.com">support@ankitiptv.com</a></p>
             </div>
             <div className="information">
               <i className="fas fa-phone"></i>
-              <p>123-456-789</p>
+              <p><a href="tel:1023-456-789">1023-456-789</a></p>
             </div>
           </div>
           <div className="social-media">
